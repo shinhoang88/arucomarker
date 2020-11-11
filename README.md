@@ -1,9 +1,7 @@
 <img src="https://docs.opencv.org/3.1.0/markers.jpg" height="100">          <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" height="100">
 
-# Aruco Tracker
+# Forked from Aruco Tracker
 [![HitCount](http://hits.dwyl.io/njanirudh/Aruco_Tracker.svg)](http://hits.dwyl.io/njanirudh/Aruco_Tracker)
-
-**Aruco Tracker** is a small program written in python to find a registered aruco marker and then run a pose estimation algorithm on it.
 
 ## Dependencies
 * Python 3.x
@@ -12,13 +10,14 @@
 * OpenCV 3.3+ Contrib modules
 
 ## Scripts
-1. **camera_calibration.py** : Shows the steps required to calibrate a camera using opencv default calibration images and writes the value to a file.
+1. **calib_image_taken.py** : Move the checkedboard inside camera range and take 50 photos (for calibration)
 
-2. **extract_calibration.py**  : This script shows how to open and extract the calibration values from a file.
+2. **camera_calibration.py** : opencv default calibration images and writes the value to calib_images/test.yaml.
 
-3. **pose_estimation.py**  : Steps to extract pose of an checkerboard marker.
+3. **extract_calibration.py**  : This script shows how to open and extract the calibration values from a file.
 
-4. **aruco_tracker.py** : Extracts pose of multiple aruco markers from a webcam stream.
+4. **object_manipulator_pose_estimation.py**  : compute the difference of rotation & translation vectors between the manipulator base and object (between 2 aruco marker IDs).
+
 
 ## References
 1. https://docs.opencv.org/3.4.0/d5/dae/tutorial_aruco_detection.html
