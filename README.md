@@ -1,7 +1,9 @@
 <img src="https://docs.opencv.org/3.1.0/markers.jpg" height="100">          <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" height="100">
 
-# Forked from Aruco Tracker
+# Aruco Tracker
 [![HitCount](http://hits.dwyl.io/njanirudh/Aruco_Tracker.svg)](http://hits.dwyl.io/njanirudh/Aruco_Tracker)
+Forked from:
+https://github.com/njanirudh/Aruco_Tracker/
 
 ## Dependencies
 * Python 3.x
@@ -24,6 +26,10 @@
 2. https://docs.opencv.org/3.4.3/dc/dbb/tutorial_py_calibration.html
 3. https://docs.opencv.org/3.1.0/d5/dae/tutorial_aruco_detection.html
 
+--------------------------------------------------------------
+- Author        : Phi Tien Hoang
+- E-mail        : phitien@skku.edu
+- Organization  : Robotory-SKKU-S.Korea
 
 
  
